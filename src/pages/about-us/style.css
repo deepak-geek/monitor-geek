@@ -1,0 +1,79 @@
+.aboutus-page {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--surface-ground);
+    padding: 2rem;
+  }
+  
+  .aboutus-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .aboutus-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutus-header .highlight {
+    color: var(--primary-color);
+  }
+  
+  .aboutus-header p {
+    font-size: 1.1rem;
+    color: var(--text-color-secondary);
+  }
+  
+  /* Section spacing */
+  .aboutus-section {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .aboutus-card {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 2rem;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .values .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .value-card {
+    width: 260px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* CTA */
+  .aboutus-cta {
+    background-color: var(--surface-card);
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2);
+  }
+  
+  .aboutus-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutus-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color-secondary);
+  }
+  

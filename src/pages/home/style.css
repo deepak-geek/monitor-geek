@@ -1,0 +1,137 @@
+/* Global */
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007ad9;
+  }
+  
+  .nav-links a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #007ad9;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #f0f4ff, #e3f0ff);
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero .highlight {
+    color: #007ad9;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .feature-card {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    color: #007ad9;
+    margin-bottom: 12px;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-card {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card span {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 12px;
+    color: #007ad9;
+    text-decoration: none;
+  }
+  

@@ -22,7 +22,7 @@ const Login = () => {
 
       <div className="form-group">
         <label htmlFor="password">Password</label>
-        <Password id="password" toggleMask feedback={false} className="p-inputtext-sm w-full" />
+        <Password id="password" placeholder='Password' toggleMask feedback={false} className="p-inputtext-sm w-full" />
       </div>
 
       <div className="forgot-password">
@@ -30,6 +30,9 @@ const Login = () => {
       </div>
 
       <Button label="Login" className="p-button-sm login-button" />
+      <div className='mt-5 text-center'>
+        We don't have account <Link to={"/authentication/signup"} className='italic'> Register </Link>
+      </div>
     </div>
   )
 }

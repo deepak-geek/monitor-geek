@@ -9,6 +9,10 @@ import Login from "./pages/authentication/login/Login";
 import SignUp from "./pages/authentication/signup/SignUp";
 import ForgotPassword from "./pages/authentication/forgot-password/ForgotPassword";
 import ResetPassword from "./pages/authentication/reset-password/ResetPassword";
+import ContactUs from "./pages/contact-us/ContactUs";
+import TermsAndConditions from "./pages/terms-and-conditions/TermsAndConditions";
+import HelpAndSupport from "./pages/help-and-support/HelpAndSupport";
+import Pricing from "./pages/pricing/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +20,11 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: "about", element: <AboutUs /> },
+      { path: "about-us", element: <AboutUs /> },
+      { path: "contact-us", element: <ContactUs /> },
+      { path: "pricing", element: <Pricing /> },
+      { path: "help-and-support", element: <HelpAndSupport /> },
+      { path: "terms-and-conditions", element: <TermsAndConditions /> },
       {
         path: "authentication", element: <Authentication />,
         children: [
