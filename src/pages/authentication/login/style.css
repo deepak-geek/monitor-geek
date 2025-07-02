@@ -1,0 +1,53 @@
+
+
+.login-box {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-box .logo img {
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 24px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #007ad9;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.login-button {
+    width: 100%;
+}
+
+.login-box .p-password-input,.login-box .p-icon-field{
+    width: 100%;
+}
