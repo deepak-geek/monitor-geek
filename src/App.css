@@ -1,0 +1,4 @@
+body:has(.dashboard-layout) .header-main,
+body:has(.dashboard-layout) .footer-main {
+    display: none;
+}

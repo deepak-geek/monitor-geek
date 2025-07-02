@@ -13,6 +13,9 @@ import ContactUs from "./pages/contact-us/ContactUs";
 import TermsAndConditions from "./pages/terms-and-conditions/TermsAndConditions";
 import HelpAndSupport from "./pages/help-and-support/HelpAndSupport";
 import Pricing from "./pages/pricing/Pricing";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Employee from "./pages/dashboard/employee/Employee";
+import Admin from "./pages/dashboard/admin/Admin";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +45,20 @@ const router = createBrowserRouter([
           },
           {
             path: "reset-password", element: <ResetPassword />
+          }
+        ]
+      },
+      {
+        path: "dashboard", element: <Dashboard />,
+        children: [
+          {
+            index: true, element: <Navigate to={"/dashboard/employee"} />
+          },
+          {
+            path: "employee", element: <Employee />
+          },
+          {
+            path: "admin", element: <Admin />
           }
         ]
       },

@@ -4,10 +4,14 @@ import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
 import { Button } from 'primereact/button';
 import Logo from '../../../components/logo/Logo';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Login = () => {
+  const navigate = useNavigate();
+  const onSubmit = () => {
+    navigate("/dashboard/employee")
+  }
   return (
     <div className="login-box">
       <div className="logo">
@@ -29,7 +33,7 @@ const Login = () => {
         <Link to={"/authentication/forgot-password"}>Forgot password?</Link>
       </div>
 
-      <Button label="Login" className="p-button-sm login-button" />
+      <Button label="Login" onClick={onSubmit} className="p-button-sm login-button" />
       <div className='mt-5 text-center'>
         We don't have account <Link to={"/authentication/signup"} className='italic'> Register </Link>
       </div>

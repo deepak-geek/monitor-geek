@@ -1,0 +1,68 @@
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: var(--surface-ground);
+    overflow-y: auto;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--surface-border);
+  }
+  
+  .user-greeting {
+    font-weight: 500;
+  }
+  
+  .dashboard-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .widget {
+    flex: 1 1 250px;
+  }
+  
+
+  .dashboard-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Widget Card Styling */
+  .widget {
+    flex: 1 1 300px;
+    background-color: var(--surface-card);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-2);
+    padding: 1.5rem;
+    color: var(--text-color);
+  }
+  
+  /* Title inside card is handled by PrimeReact <Card /> component */
+  
+  /* Optional inner content styling */
+  .widget p {
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+    margin: 0.5rem 0;
+  }
+  
+  /* Example image styling if you add illustrations/icons inside widgets */
+  .widget img {
+    max-width: 100px;
+    margin-top: 1rem;
+  }
+  
