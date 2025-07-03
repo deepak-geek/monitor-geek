@@ -24,9 +24,9 @@ export default function SidebarMenu({ visible }: SidebarMenuProps) {
         <>
             {visible && <div className="p-sidebar-sm">
                 <div className="text-center mb-3">
-                    <h3>GeekTech</h3>
+                    <img src='/assets/images/logo.png' className='geek-logo-sidebar' alt='Geek Logo' />
                 </div>
-                <Menu model={items} />
+                <Menu model={items} className='menubar-layout' />
             </div>}
         </>
     );

@@ -5,7 +5,6 @@
   
   .main-content {
     flex: 1;
-    padding: 1.5rem;
     background-color: var(--surface-ground);
     overflow-y: auto;
   }
@@ -65,4 +64,20 @@
     max-width: 100px;
     margin-top: 1rem;
   }
+  .geek-logo-sidebar{
+    width: 160px;
+    filter: drop-shadow(2px 4px 6px #ccc);
+  }
   
+  .menubar-layout{
+    border: none;
+    width: 280px;
+  }
+  .card .p-card-content {
+    padding: 1rem;
+  }
+  
+  .dashboard-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
